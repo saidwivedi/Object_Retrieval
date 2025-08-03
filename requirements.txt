@@ -1,0 +1,8 @@
+omegaconf
+accelerate
+chardet
+requests
+objaverse
+gensim
+scipy
+numpy
