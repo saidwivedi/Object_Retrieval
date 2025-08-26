@@ -1,6 +1,6 @@
-# Object Retrieval from Single Image (Used in InteractVLM, CVPR2025)
+# Object Retrieval from Single Image (Used in InteractVLM & PICO, CVPR2025)
 
-A simple object retrieval tool designed as a component for [InteractVLM](https://github.com/your-username/interactvlm). This tool enables efficient object lookup and retrieval from a single image using both the large Objaverse database and local 3D object collections.
+A simple object retrieval tool designed as a component for [InteractVLM](https://github.com/your-username/interactvlm) and [PICO](https://pico.is.tue.mpg.de/). This tool enables efficient object lookup and retrieval from a single image using both the large Objaverse database and local 3D object collections.
 
 **Key Features**:
 - **Precomputed Objaverse embeddings** for fast retrieval from 800K+ objects
@@ -78,7 +78,7 @@ python obj_retrieval.py --obj_folder ./assets/objs \
 
 ## Citation
 
-If you use this utility in your research, please cite the original OpenShape paper and InteractVLM:
+If you use this utility in your research, please cite the original OpenShape paper and the relevant work(s):
 
 ```bibtex
 @misc{liu2023openshape,
@@ -98,6 +98,17 @@ If you use this utility in your research, please cite the original OpenShape pap
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2025},
+}
+```
+
+```bibtex
+@inproceedings{cseke_tripathi_2025_pico,
+    title     = {{PICO}: Reconstructing {3D} People In Contact with Objects}, 
+    author    = {Cseke, Alp\'{a}r and Tripathi, Shashank and Dwivedi, Sai Kumar and Lakshmipathy, Arjun and Chatterjee, Agniv and Black, Michael J. and Tzionas, Dimitrios},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {1783--1794},
 }
 ```
 
